@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập Tên In Ra Tên Vơi h1</title>
+</head>
+<body>
+<h1>Nhập tên</h1>
+<input type="text" id="name">
+<button onclick="inTen()">In tên ra màn hình</button>
+<h1 id="ten"></h1>
+</body>
+<script>
+    function inTen() {
+        let a = document.getElementById("name").value;
+        document.getElementById('ten').innerHTML = a;
+    }
+
+
+</script>
+</html>

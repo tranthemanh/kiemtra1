@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Bình Phương</title>
+</head>
+<body>
+<h1>Tinh Bình Phương của a</h1>
+<input type="text" id="so" placeholder="Nhap a">
+<button onclick="binhPhuong()">Tính Bình Phương</button>
+</body>
+<script>
+    function binhPhuong() {
+        let a = document.getElementById('so').value;
+        let bp = a*a;
+        document.write('Bình phương cua '+a+' la: '+ bp)
+    }
+</script>
+</html>

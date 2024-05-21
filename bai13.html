@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="so1" placeholder="Nhập a">
+<input type="text" id="so2" placeholder="Nhập b">
+<button onclick="kiemTra1()">Kiem tra</button>
+</body>
+<script>
+    function kiemTra1() {
+        let tong = 0;
+        let tich = 0;
+        let a = +document.getElementById('so1').value;
+        let b = +document.getElementById('so2').value;
+
+        if (a > b) {
+            tong = a + b;
+            document.write(tong);
+        } else if (a < b) {
+            tich = a * b;
+            document.write(tich);
+        } else {
+            document.write("HiHi")
+        }
+    }
+</script>
+</html>

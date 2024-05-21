@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhap so phan tu cua mang");
+    let a = [];
+
+    for (let i = 0; i < n; i++) {
+        let so = +prompt("Nhap phan tu thu "+ i)
+        a.push(so);
+    }
+
+    for (let i = 0; i < a.length; i++) {
+        if (a[i]%2 ===0){
+            document.write('Cac so chan gom: '+a[i]+'<br>');
+        }
+    }
+</script>
+</body>
+</html>

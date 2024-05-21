@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Lớn Nhất</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhap a");
+    let b = +prompt("Nhap b");
+    let c = +prompt("Nhap c");
+    let max = a;
+
+    if (max < b){
+        max = b;
+        if (max < c){
+            max = c;
+            document.write(max)
+        }else {
+            document.write(max)
+        }
+    }else if (max < c){
+        max = c;
+        document.write(max)
+    }else {
+        document.write(max)
+    }
+</script>
+</body>
+</html>
